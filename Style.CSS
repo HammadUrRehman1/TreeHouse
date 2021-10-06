@@ -1,0 +1,366 @@
+* {
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #576366;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.logo {
+    float: left;
+    margin-left: 4%;
+    margin-top: 15px;
+    width: 30px;
+    height: 33px;
+}
+
+.logo_text {
+    float: left;
+    margin-left: 6px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.header_section {
+    height: auto;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    float: left;
+}
+
+.container {
+    margin-left: 57%;
+    margin-top: 25px;
+}
+
+li {
+    display: inline;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+.ft {
+    border: 1px #007589 solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #008298 0%, #007589 100%);
+    background-color: #007589;
+    color: white;
+}
+
+a {
+    font-size: 14px;
+    color: #387bab;
+    padding-top: 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(7, 7, 165);
+    border-bottom: rgb(219, 202, 202) 2px solid;
+}
+
+.bg {
+    width: 100%;
+    height: 70%;
+}
+
+.container_banner {
+    width: 100%;
+    height: 40em;
+}
+
+h3, h1 {
+    text-align: justify;
+    text-align: center;
+    width: 60%;
+}
+
+.banner1_txt {
+    margin-left: 350px;
+    margin-top: -150px;
+}
+
+.form_head {
+    width: 100%;
+    margin-top: 150px;
+    margin-right: 150px
+}
+
+.form_border {
+    border: 1px solid rgb(191, 199, 191);
+    padding: 0px 46px 0px 10px;
+    width: 34%;
+    margin-left: 420px;
+    margin-top: -18px;
+}
+
+.email {
+    margin-left: 6%;
+}
+
+input[type='email'] {
+    padding: 16px 100px;
+    border-radius: 5px;
+    margin-left: 5%
+}
+
+input[type='checkbox'] {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+h4 {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 16px;
+    height: 52px;
+    padding: 0 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007e92;
+    border-color: transparent;
+    color: #fff;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(22, 89, 121);
+}
+
+.homepage-tabs {
+    max-width: 1260px;
+    margin: 0 auto 5rem auto;
+    text-align: center;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.homepage-tabs a.active, .homepage-tabs a.active:hover, .homepage-tabs a:hover {
+    color: #007e92;
+    border-bottom: 3px solid #0098b1;
+}
+
+.homepage-tabs a {
+    font-weight: 500;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.homepage-signup-form-banner {
+    width: 521px;
+    background-color: #2d3339;
+    border-radius: 4px 4px 0 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 20px 0px;
+    margin-left: 31%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+table {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    padding-bottom: 20px;
+    width: 10%;
+    text-align: justify;
+    padding: 50px 2px 100px 100px;
+    font-weight: bold;
+}
+
+.img_style {
+    float: left;
+    margin: 30px 5px 3px 4px;
+}
+
+.txt_style {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.925);
+}
+
+.sign_up_btn {
+    margin-left: 42%;
+}
+
+.tbl_txt {
+    color: #576366;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    line-height: 28px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.tbl {
+    width: 90%;
+    margin-top: 200px;
+}
+
+.txt2 {
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 70px;
+    text-align: justify;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+}
+
+.txt_p {
+    width: 30%;
+    margin-left: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #576366;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.btn_et {
+    margin-left: 50px;
+}
+
+.tbld {
+    padding-bottom: 0px;
+    margin-top: -450px;
+    margin-left: 50%;
+    /* width: 50%; */
+}
+
+.tdd {
+    border-bottom: 2px solid #e8ebed;
+}
+
+.gs {
+    margin-top: 30px;
+    margin-left: 18%;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    margin-top: 150px;
+}
+
+hr.rainbow {
+    background: #ff0000;
+    background: -webkit-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+    background: -moz-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+    background: -o-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+    background: -ms-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+    background: linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+}
+
+.footer-left {
+    width: 20px;
+    margin-left: 10px;
+    border-right: 2px solid teal;
+}
+
+.trh {
+    margin-left: 30px;
+}
+
+.container_banner1 {
+    width: 100%;
+    height: 35em;
+    background-color: #171a1b;
+    margin-top: 90px;
+}
+
+.txt3 {
+    margin-left: 18%;
+    margin-top: 30px;
+}
+
+.bg4 {
+    margin-left: 10%;
+}
+
+.bg5 {
+    margin-left: 90px;
+    margin-top: 70px;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.txt4 {
+    margin-top: 170px;
+    margin-left: 20%;
+}
+
+.txt5 {
+    margin-left: 27%;
+    text-align: center;
+    text-align: justify;
+}
+
+.txt6 {
+    margin-left: 40px;
+    font-size: 40px;
+    color: rgb(92, 88, 88);
+}
+
+.container_banner2 {
+    width: 100%;
+    height: 38em;
+    background-color: #dfecee;
+    margin-top: 90px;
+}
+
+.txt7 {
+    margin-left: 50px;
+    border-bottom: 1px solid rgb(179, 170, 170);
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.bg8 {
+    margin-left: 20%;
+}
+
+.txt8 {
+    color: white;
+    margin-top: -460px;
+    margin-left: 700px;
+}
+
+.txt9 {
+    margin-left: 68%;
+    text-align: justify;
+    text-align: center;
+    color: white;
+}
+
+.btn_rm {
+    margin-top: -200px;
+    margin-left: 40%;
+}
+
+.btn_tq {
+    background-color: white;
+    margin-left: 80%;
+    color: teal;
+}
